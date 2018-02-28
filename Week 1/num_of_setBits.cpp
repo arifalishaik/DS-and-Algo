@@ -10,14 +10,11 @@ int setbits( long int N ){
     // running the while loop till N becomes 0
     while (N != 0)
     {
-
-        if (N & 1)
-        {
+        if ( N & 1 ){
             // if LSB of N is 1
             ++set_bits;
         }
-        else
-        {
+        else{
             // if LSB of N is 0
             ++unset_bits;
         }
