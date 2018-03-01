@@ -17,6 +17,7 @@ int main( void ){
     // reading the bit positions to be set
     cin >> a >> b;
 
+    // get the number with bit postions a and b set
     long int num = get_Number( a, b );
     cout << num << endl;
 }
