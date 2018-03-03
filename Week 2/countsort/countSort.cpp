@@ -33,8 +33,7 @@ int countSort( int *arr, int N, int M )
     }
 
     // printing the count array
-    for ( int i = 0; i < N; ++i)
-    {
+    for ( int i = 0; i < N; ++i){
         cout << arr[i] << " ";
     }
 
