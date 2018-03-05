@@ -49,3 +49,15 @@ int main ( void ){
     sort_AB( a, b, N, M );
 }
 
+/*
+Time Complexity:
+N + M  for copying elements of array a and b into array arr
+(N+M)Log (N+M) for sorting the array arr
+N + M for printing the sorted array
+
+Total TimeComplexity = let us assume N + M = P
+                        2P + P log P
+
+Space Complexity: O( M + N )
+
+*/
