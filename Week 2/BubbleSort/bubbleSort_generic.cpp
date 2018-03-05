@@ -16,7 +16,7 @@ void bubbleSort( int *arr, int N ){
             
             if( arr[ j + 1 ] < arr[ j ] ){
                 // swap the two adjacent elements
-                swap( &arr[ j ], &arr[ j + 1 ] );
+                swap( &arr[ j ], &arr[ j+1 ] );
             }
         }
     }
@@ -47,6 +47,6 @@ int main( void ){
 
 /*
 Time Complexity: 
-
-
+Even for a sorted array, the time complexity remains same. Therefore it looks
+bubblesort is not best suited
 */
